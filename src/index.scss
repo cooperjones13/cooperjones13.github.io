@@ -1,0 +1,51 @@
+@import "./theme.scss";
+
+html{
+  background-color: $theme-navy;
+}
+body {
+  position: relative;
+  background:none;
+  // background: $theme-navy  url("https://images.unsplash.com/photo-1515387784663-e2e29a23f69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80") ;
+  // background-blend-mode: soft-light;
+  // background-size: cover;
+  // min-height: 100vh;
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+//body background
+
+body::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  // top: -50%;
+  // left: -50%;
+  z-index: -1;
+  background: url("https://images.unsplash.com/photo-1515387784663-e2e29a23f69e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80") $theme-navy ;
+  background-blend-mode: soft-light;
+  // filter: grayscale(100);
+  background-size: cover;
+  background-attachment: fixed;
+
+  filter: opacity(0.2);
+
+}
+
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

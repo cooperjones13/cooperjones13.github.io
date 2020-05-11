@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+// /* HSL */
+// $theme-black: hsla(120%, 2%, 17%, 1);
+// $theme-red: hsla(10%, 70%, 94%, 1);
+// $theme-white: hsla(26%, 3%, 96%, 1);
+// $theme-blue: hsla(194%, 15%, 89%, 1);
+// $theme-grey: hsla(0%, 0%, 49%, 1);
+
+// /* RGB */
+// $theme-black: rgba(42, 43, 42, 1);
+// $theme-red: rgba(240, 100, 73, 1);
+// $theme-white: rgba(246, 242, 239, 1);
+// $theme-blue: rgba(193, 219, 227, 1);
+// $theme-grey: rgba(124, 124, 124, 1);
+
+/* HEX */
+$theme-navy:#273043;
+$theme-black: #2a2b2aff;
+$theme-red: #f06449ff;
+$theme-blue: #89D2DC;
+$theme-lightblue: #DBF1F4;
+$theme-white: #F9F6F3;
+
+$theme-grey: #7c7c7cff;
+
+/* GRADIENT */
+$gradient-top: linear-gradient(0deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-right: linear-gradient(90deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-bottom: linear-gradient(180deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-left: linear-gradient(270deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-top-right: linear-gradient(45deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-bottom-right: linear-gradient(135deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-top-left: linear-gradient(225deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-bottom-left: linear-gradient(315deg, #2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+$gradient-radial: radial-gradient(#2a2b2aff, #f06449ff, #f6f2efff, #c1dbe3ff, #7c7c7cff);
+
+//Utility colors
+$clear : rgba(0,0,0,0)
